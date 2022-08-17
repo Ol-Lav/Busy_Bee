@@ -1,0 +1,131 @@
+.todos {
+  margin-top: 20px;
+
+  &_greeting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 30px auto 0;
+  }
+
+  &_name {
+    padding: 10px;
+    align-self: center;
+
+    font-size: 26px;
+    font-weight: 500;
+
+    background-color: #E6C2BF;
+    outline: none;
+    border: none;
+  }
+
+  &_name-input {
+    max-width: 200px;
+    align-self: center;
+
+    font-size: 26px;
+    font-weight: 500;
+
+
+    background-color: #E6C2BF;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    &:focus {
+      border: 1px solid #FAD02C;
+      background-color: #F8EFE4;
+    }
+  }
+
+  &_input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &_input {
+    width: 60%;
+    height: 20px;
+    margin: 20px 40px;
+    padding: 10px;
+
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #F8EFE4;
+
+    &:focus {
+      border: 2px solid #FAD02C;
+    }
+
+    &::placeholder {
+      padding: 10px;
+      color: #282120;
+      font-style: italic;
+    }
+  }
+
+  &_button {
+    height: 30px;
+    padding: 5px;
+    align-self: center;
+
+    font-size: 10px;
+    text-align: center;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    background-color: #FAD02C;
+    transition: background-color 0.2s border 0.2s;
+
+    &:hover {
+      border: 1px solid #FAD02C;
+      background-color: #F8EFE4;
+    }
+  }
+
+  &_list {
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+
+    list-style: none;
+  }
+
+  &_value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+
+    color: #282120;
+    border-radius: 5px;
+    background-color: #F8EFE4;
+
+    &::before {
+      content: '';
+      width: 15px;
+      height: 15px;
+      transform: translateX(-230%);
+      background-image: url('../../images/bee.png');
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &_text {
+    margin: 10px auto;
+
+    font-size: 14px;
+    color: #282120;
+    text-align: justify;
+
+    overflow: scroll;
+  }
+}

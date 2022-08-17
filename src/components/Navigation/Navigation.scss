@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  font-size: 18px;
+  text-align: center;
+  background-color: #282120;
+
+  &_logo {
+    height: 40px;
+    margin: 5px 60px 0px 0px;
+  }
+
+  &_link {
+    margin: 10px;
+    padding: 10px;
+
+    color: #F8EFE4;
+    text-decoration: none;
+    transition: transform 0.2s color 0.2s;
+
+    &:hover {
+      transform: scale(1.1);
+      color: #FAD02C;
+    }
+  }
+}

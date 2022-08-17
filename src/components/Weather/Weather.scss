@@ -1,0 +1,73 @@
+.weather {
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto 20px;
+  color: #282120;
+
+  &_input {
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+
+    font-size: 16px;
+    color: #282120;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #F8EFE4;
+
+    outline: none;
+    appearance: none;
+
+    &::placeholder {
+      padding: 10px;
+      font-size: 16px;
+      color: #282120;
+      font-style: italic;
+    }
+
+    &:focus {
+      border: 1px solid #FAD02C;
+    }
+  }
+
+  &_location {
+    display: block;
+    margin: 30px auto;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &_temperature {
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &_feels-like {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &_text {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &_img {
+    display: block;
+    width: 250px;
+    margin: 40px auto;
+
+    &-main {
+      width: 250px;
+      display: block;
+      margin: 100px auto;
+    }
+  }
+}

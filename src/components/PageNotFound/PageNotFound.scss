@@ -1,0 +1,15 @@
+.pageNotFound {
+  margin: 50px;
+
+  &_text {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &_img {
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+  }
+}
