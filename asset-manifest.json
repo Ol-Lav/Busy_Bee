@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Busy_Bee/static/css/main.b384c13e.css",
+    "main.js": "/Busy_Bee/static/js/main.707ec0df.js",
+    "static/media/flowers.png": "/Busy_Bee/static/media/flowers.d9f8f7febef46584df6d.png",
+    "static/media/flowers-2.png": "/Busy_Bee/static/media/flowers-2.a6c13935876038a5d2ee.png",
+    "static/media/beehive.png": "/Busy_Bee/static/media/beehive.377ccdf874a83196a8bd.png",
+    "static/media/bee.png": "/Busy_Bee/static/media/bee.972fd774a33a4b967fea.png",
+    "index.html": "/Busy_Bee/index.html",
+    "main.b384c13e.css.map": "/Busy_Bee/static/css/main.b384c13e.css.map",
+    "main.707ec0df.js.map": "/Busy_Bee/static/js/main.707ec0df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b384c13e.css",
+    "static/js/main.707ec0df.js"
+  ]
+}
